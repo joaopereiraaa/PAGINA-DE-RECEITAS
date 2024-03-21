@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+   background-color: #f8fafa;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header {
+    background-color: #00f7ff;
+    height: 65px;
+    text-align: center;
+    padding-top: 15px;
+}
+.banner {
+    background-image: url(./mexidinho.png);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+.footer{
+    background-color: #00f7ff;
+    height: 50px;
+    color: #f0f5f5;
+    text-align: center;
+    padding-top: 30px;
+}
+.card {
+  width: 500px;
+  margin: auto;
+  padding: 50px;
+  background-color: #b5bebe;
+  margin: 50px auto;
+  border-radius: 5px;
+  font-weight: 300;
+}
+h1 {
+    text-align: center;
+    font-weight: 400px;
+    font-size: 20px;
+    color: #0c0c0c;
+    margin-bottom: 20px;
+
+}
+li {
+    list-style-position: inside;
+    line-height: 35px;
+}
+ul{
+    margin-bottom: 40px;
+}
+.botao{
+    text-decoration: nome;
+    background-color: #00f7ff;
+    color: #b5bebe;
+    padding: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 30px;
+}
+.botao:hover{
+    background-color: #111111;
+}
+.titulo-receita{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.link-footer{
+    font-weight: 700;
+    text-decoration:none ;
+    color: #0d0e0d;
+}
